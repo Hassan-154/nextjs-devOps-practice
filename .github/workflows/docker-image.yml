@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 jobs:
   build:
-    runs-on: [self-hosted, linux, x64]
+    runs-on: [self-hosted, linux, x64] 
     steps:
     - uses: actions/checkout@v4
     - name: Set up environment variable for tag
